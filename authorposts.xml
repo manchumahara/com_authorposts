@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="3.0" method="upgrade">
+    <name>COM_AUTHORPOSTS</name>
+    <creationDate>2016-11-02</creationDate>    
+    <copyright>Copyright (C) 2016 Codeboxr.com. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+    <author>Codeboxr Team</author>
+    <authorEmail>info@codeboxr.com</authorEmail>
+    <authorUrl>http://codeboxr.com</authorUrl>
+    <version>1.0.2</version>
+    <description>COM_AUTHORPOSTS_DESC</description>              
+    <files folder="site">
+        <folder>assets</folder>
+        <folder>helpers</folder>
+        <folder>language</folder>
+        <folder>models</folder>
+        <folder>views</folder>
+        <filename>authorposts.php</filename>
+        <filename>controller.php</filename>
+        <filename>router.php</filename>
+        <filename>index.html</filename>
+    </files>   
+    <languages folder="site/language">        
+			<language tag="en-GB">en-GB/en-GB.com_authorposts.ini</language>
+    </languages>
+    <administration>        
+        <menu>COM_AUTHORPOSTS</menu>
+        <files folder="admin">
+            <folder>assets</folder>
+            <folder>controllers</folder>
+            <folder>helpers</folder>
+            <folder>language</folder>
+            <folder>models</folder>
+            <folder>views</folder>
+            <filename>access.xml</filename>
+            <filename>authorposts.php</filename>                        
+            <filename>config.xml</filename>
+            <filename>controller.php</filename>
+            <filename>index.html</filename>
+        </files>
+        <languages folder="admin/language">            
+			<language tag="en-GB">en-GB/en-GB.com_authorposts.ini</language>
+			<language tag="en-GB">en-GB/en-GB.com_authorposts.sys.ini</language>
+        </languages>
+    </administration>
+    <config>
+        <fields name="params">           
+        </fields>
+    </config>        
+</extension>
