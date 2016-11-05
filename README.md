@@ -8,12 +8,16 @@ Idea: Joomla doesn't have any view for author archive posts or any dedicated vie
 Usages
 
 //include the route file from com_authors's site part
+
+```php
 require_once JPATH_SITE . '/components/com_authorposts/helpers/route.php';
+```
 
 now 
 
+```php
 $author_archive_link = AuthorpostsHelperRoute::getAuthorRoute($author_id, $language = 0);
-
+```
 
 By default using this component you can create any user's archive posts as menu item.
 
